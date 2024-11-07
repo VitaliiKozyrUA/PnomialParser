@@ -34,7 +34,7 @@ private val rule = rule(
 
 ## Parsing
 A successful parse of a polynomial expression results in the construction of an AST with the structure shown in the image:  
-![AST](https://github.com/VitaliiKozyrUA/PnomialParser/assets/AST.png)
+![AST](https://github.com/VitaliiKozyrUA/PnomialParser/blob/master/assets/AST.png)
 
 If the parser cannot understand the language of the provided expression, it may emit the following errors:
 > Reference expression: ``5x^2 + 2.5x + -1``.
