@@ -14,7 +14,7 @@ The parser's grammar, expressed in EBNF notation:
 <polynomial> ::= <term> ("+" <term>)*  
 <start> ::= <polynomial>  
 ```  
-For example, the production rules for the nonterminal `real` in the [source code](https://github.com/VitaliiKozyrUA/PnomialParser/blob/6d18d763ba7dcc1fd4cbe52dd0d1048537aa6f20/src/main/kotlin/com/kozyr/pnomialparser/tree/Real.kt#L22C9-L22C69) are as follows:
+For example, the production rules for the nonterminal `real` in the [source code](https://github.com/VitaliiKozyrUA/PnomialParser/blob/73bb44ab1d69e392fe0bbb36272df03e09e2bbf5/src/main/kotlin/com/kozyr/pnomialparser/tree/Real.kt#L22) are as follows:
 ```kotlin  
 private val optionalMinus = optionalRule(C.Minus) { minus ->  
   minus  
